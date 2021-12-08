@@ -1,0 +1,412 @@
+#wp-header {
+    background-color: black;
+}
+
+/* #wp-content {
+    background-image: url(../images/banner.png);
+    background-attachment: fixed;
+} */
+
+.top-header {
+    padding: 5px 0;
+    color: #eeee;
+    border-bottom: 1px solid #403838;
+}
+
+.support a {
+    color: #eee;
+}
+
+.support:hover i,
+.support:hover a {
+    color: #e2524a;
+}
+
+.phone:hover i,
+.phone:hover span {
+    color: #e2524a;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+
+.navbar-brand {
+    margin-right: 128px;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 25px 20px 15px !important;
+}
+
+.nav-item {
+    padding: 2px 10px;
+}
+
+.navbar-brand {
+    margin-right: 95px !important;
+}
+
+.menu-child {
+    position: absolute;
+    z-index: 10;
+    top: 85px;
+    left: 530px;
+    width: 195px;
+    height: 128px;
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px 12px #b1b1b1;
+    display: none;
+}
+
+.menu-child a {
+    display: block;
+    color: #5c5b5b !important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    padding: 2px 0pc 2px 9px;
+}
+
+.menu-child a:hover {
+    text-decoration: none;
+    color: #e2524a !important;
+    background-color: #d8d6d6;
+}
+
+.dropdown-menu {
+    top: 144% !important;
+    left: 16px !important;
+}
+
+.icon-search {
+    color: #eee;
+}
+
+.icon-search i:hover {
+    color: #e2524a;
+}
+
+.fa-cart-plus::after {
+    content: "2 ";
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    bottom: 44px;
+}
+
+.logo,
+.icon-search {
+    line-height: 35px;
+}
+
+.body-header {
+    padding: 22px 0;
+}
+
+.nav-item:hover>a {
+    color: #e2524a;
+}
+
+.carousel-indicators .active {
+    background-color: #e2524a;
+}
+
+#carouselId:hover {
+    cursor: pointer;
+}
+
+.policy {
+    margin-top: 80px;
+}
+
+.policy div i {
+    font-size: 40px;
+    color: #888787;
+}
+
+.policy div span {
+    color: #434141;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.policy .box {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.box:hover span,
+.box:hover i {
+    color: #e2524a;
+    cursor: pointer;
+}
+
+.list-product {
+    margin-top: 80px;
+    border-top: 1px solid #d8d6d6;
+}
+
+.title-product h3 {
+    font-size: 30px;
+    color: #343434;
+}
+
+.title-product p {
+    color: #837d7d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title-product {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.star i {
+    color: #ffa500;
+    font-size: 14px;
+}
+
+.star small {
+    font-size: 14px;
+    margin-left: 8px;
+    color: #6c757d;
+}
+
+.star {
+    line-height: 16px;
+    padding-bottom: 3px;
+}
+
+.card-text {
+    font-weight: 500;
+}
+
+.card-text,
+.price {
+    font-size: 14px;
+    color: #514545;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-text {
+    color: #e2524a;
+    text-decoration: none;
+}
+
+.img-box img {
+    transition: all 0.2s ease-in-out;
+}
+
+.img-box:hover img {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-see-1 {
+    right: 32px;
+    bottom: 37px;
+    background-color: black;
+    color: #fff;
+    padding: 9px 25px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.btn-see-1:hover {
+    background-color: #e2524a;
+    transition: all 0.2s ease-in-out;
+}
+
+.title-sell {
+    margin-top: 100px;
+}
+
+.owl-theme .owl-dots {
+    display: none;
+}
+
+.share {
+    margin-top: 80px;
+    border-top: 1px solid #d8d6d6;
+}
+
+.title-share {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    width: 30px;
+    height: 30px;
+    background-color: #343434 !important;
+    color: #fff !important;
+}
+
+.owl-carousel .owl-nav>button:hover {
+    background-color: #e2524a !important;
+    outline: none !important;
+}
+
+.post-share .name {
+    color: #313131;
+    font-size: 11px;
+}
+
+.post-share .card-title {
+    font-size: 16px;
+    color: #141414;
+    font-weight: 600;
+}
+
+.post-share .date {
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.post-share .text {
+    color: #343434;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.item-post-share:hover .card-title {
+    color: #e2524a;
+}
+
+.item-post-share:hover,
+.card.border:hover {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)
+}
+
+.btn-see:hover {
+    cursor: pointer;
+    background-color: #e2524a;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+#footer {
+    background-color: #212121;
+    margin-top: 60px;
+}
+
+#footer li {
+    list-style: none;
+}
+
+#footer .title {
+    font-size: 16px;
+    color: #e2524a;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+#footer li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#footer i {
+    color: #fff;
+    font-size: 13px;
+    margin-right: 6px;
+    line-height: 21px;
+}
+
+#footer li {
+    margin: 5px 0;
+    display: flex;
+}
+
+#footer .row {
+    padding: 80px 0 100px 0;
+}
+
+#footer li:hover a,
+#footer li:hover i {
+    text-decoration: none;
+    color: #e2524a;
+}
+
+#footer li:hover {
+    cursor: pointer;
+}
+
+#copy-right {
+    background-color: #e2524a;
+}
+
+@media screen and (max-width: 768px) {
+    .top-header {
+        display: none;
+        transition: all 0.4s ease-in-out;
+    }
+    #wp-content {
+        padding-top: 84.7px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu-child {
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 991.9px) {
+    .nav-item {
+        border-bottom: 1px solid #837d7d;
+    }
+    .fa-cart-plus::after {
+        bottom: 36px !important;
+    }
+    .icon-search {
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .navbar-brand {
+        margin-right: 28px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #wp-content {
+        padding-top: 119.7px;
+    }
+}
+
+#wp-header {
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+}
+
+#back-top {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #e2524a;
+    color: #fff;
+    right: 15px;
+    bottom: 30px;
+    position: fixed;
+    text-align: center;
+    cursor: pointer;
+}
